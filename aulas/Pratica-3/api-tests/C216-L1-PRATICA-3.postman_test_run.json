@@ -1,0 +1,270 @@
+{
+	"id": "c8fb0d02-2b09-4576-a656-dc88198e5bc3",
+	"name": "C216-L1-PRATICA-3",
+	"timestamp": "2024-04-20T17:47:30.640Z",
+	"collection_id": "23399762-c44a40cb-ef39-403c-aad4-15b16922aa1b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-20T17:47:25.110Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1fa62424-0744-4958-8664-6ddb5be18d6e",
+			"name": "CREATE",
+			"url": "http://localhost:5000/api/v1/professor/inserir",
+			"time": 952,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				952
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "09655d71-298a-43d1-a494-ba88baeaf87c",
+			"name": "CREATE ONE MORE",
+			"url": "http://localhost:5000/api/v1/professor/inserir",
+			"time": 56,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				56
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "c4d3cbb0-df23-4fdc-9940-b5ab2a40a47a",
+			"name": "READ",
+			"url": "http://localhost:5000/api/v1/professor/listar",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "78b7ce99-5933-4ec5-9bd7-4a32480e0d91",
+			"name": "UPDATE",
+			"url": "http://localhost:5000/api/v1/professor/atualizar",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "634758f8-8fb3-4c23-8875-4c58f3e51b3b",
+			"name": "READ UPDATE",
+			"url": "http://localhost:5000/api/v1/professor/listar",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "8816b097-e880-4f51-a07d-d3de404a32f6",
+			"name": "DELETE",
+			"url": "http://localhost:5000/api/v1/professor/excluir",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		},
+		{
+			"id": "fcf41657-0ee9-46da-99ca-663bf499bb3f",
+			"name": "READ END",
+			"url": "http://localhost:5000/api/v1/professor/listar",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "29928a1d-da5a-48c0-9818-f8df4e11f86e",
+			"name": "DELETE END",
+			"url": "http://localhost:5000/api/v1/professor/excluir",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1292,
+	"collection": {
+		"requests": [
+			{
+				"id": "1fa62424-0744-4958-8664-6ddb5be18d6e",
+				"method": "POST"
+			},
+			{
+				"id": "09655d71-298a-43d1-a494-ba88baeaf87c",
+				"method": "POST"
+			},
+			{
+				"id": "c4d3cbb0-df23-4fdc-9940-b5ab2a40a47a",
+				"method": "GET"
+			},
+			{
+				"id": "78b7ce99-5933-4ec5-9bd7-4a32480e0d91",
+				"method": "POST"
+			},
+			{
+				"id": "634758f8-8fb3-4c23-8875-4c58f3e51b3b",
+				"method": "GET"
+			},
+			{
+				"id": "8816b097-e880-4f51-a07d-d3de404a32f6",
+				"method": "POST"
+			},
+			{
+				"id": "fcf41657-0ee9-46da-99ca-663bf499bb3f",
+				"method": "GET"
+			},
+			{
+				"id": "29928a1d-da5a-48c0-9818-f8df4e11f86e",
+				"method": "POST"
+			}
+		]
+	}
+}

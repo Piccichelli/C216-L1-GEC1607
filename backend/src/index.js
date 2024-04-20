@@ -39,7 +39,7 @@ server.get('/api/v1/professor/listar', (req, res, next) => {
 server.post('/api/v1/professor/atualizar', (req, res, next) => {
     const { id, nome, disciplina, email } = req.body;
 
-    const professorIndex = professores.findIndex(professor => profesor.id === id);
+    const professorIndex = professores.findIndex(professor => professor.id === id);
     if (professorIndex === -1) {
         res.send(404, { message: 'Professor não encontrado' });
     } else {
