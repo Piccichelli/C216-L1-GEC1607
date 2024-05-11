@@ -8,8 +8,9 @@
       "test": "Não há testes configurados"
     },
     "dependencies": {
-      "restify": "^8.5.1"
+      "restify": "^8.5.1",
+      "pg": "^8.11.5"
     },
-    "author": "Lucas GES134",
+    "author": "Pedro GEC1607",
     "license": "ISC"
   }
